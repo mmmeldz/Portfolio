@@ -1,0 +1,55 @@
+body {
+  padding-bottom: 5rem;
+}
+header {
+   background: url(../images/maarten-deckers-227224.jpg) center / cover;
+   height: 65vh;
+   justify-content: center;
+   text-align: center;
+ }
+ h1 {
+   color: #deaaaa;
+   font-weight: bold;
+   margin: 8px 0px;
+   margin-right: 169px;
+ }
+ .slogan {
+   color: hsla(198, 16%, 49%, 0.7);
+   font-weight: lighter;
+   font-size: 1.6rem;
+   margin: -6px 0 16px;
+   margin-right: 309px;
+}
+main {
+   max-width: 900px;
+ }
+ .project-description {
+   padding-left: 0;
+   color: #74787b;
+ }
+ .mdl-card__title-text {
+   color: grey;
+ }
+ .project img {
+   width: 100%;
+ }
+ footer.mdl-mini-footer {
+    bottom: -6px;
+    left: 0;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  footer.mdl-mini-footer > ul {
+   margin: auto;
+   font-size: 2rem;
+ }
+ .mdl-mini-footer {
+   background-color: #e0c9cf;
+ }
+ @media screen and (max-width: 1024px) {
+   header.mdl-layout__header {
+     display: flex;
+   }
+ }
